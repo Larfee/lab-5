@@ -8,7 +8,7 @@
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Label1.Text = Today
-
+        Label1.ForeColor = Color.Black
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Button2.Text = "ФАМИЛИЯ1 ИМЯ1"
